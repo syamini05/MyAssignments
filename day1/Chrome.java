@@ -12,9 +12,6 @@ public class Chrome {
                            "Beta Version:"+isBeta+"\n"+
                            "Release Year:"+releaseYear+"\n"+
                            "Shortcut Key:"+shortcutKey);
-
-        
-
     }
     
 }
