@@ -1,0 +1,16 @@
+package week1.day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class FacebookLaunch 
+{
+    public static void main(String[] args) {
+		ChromeDriver driver = new ChromeDriver();
+        driver.get("https://www.facebook.com"); 
+        driver.manage().window().maximize();
+        driver.findElement(By.name("email")).sendKeys("testleaf.2023@gmail.com");
+        driver.findElement(By.name("pass")).sendKeys("Tuna@321");
+
+    }
+
+}
